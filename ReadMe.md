@@ -6,7 +6,7 @@ Usages
 /* Dark Syntax */
 
 using (var Client = new WebClient { Proxy = null })
-using (var XmlTextReader = new XmlTextReader(Client.OpenRead("https://raw.githubusercontent.com/ImmuneLion318/Editor-Syntax/Entry/Syntax/Dark.xshd")))
+using (var XmlTextReader = new XmlTextReader(Client.OpenRead("https://raw.githubusercontent.com/Memeitizer-Limited/Editor-Syntax/Entry/Syntax/Dark.xshd")))
        Editor.SyntaxHighlighting = HighlightingLoader.Load(XmlTextReader, HighlightingManager.Instance); 
 ```
 
@@ -15,6 +15,6 @@ using (var XmlTextReader = new XmlTextReader(Client.OpenRead("https://raw.github
 /* Light Syntax */
 
 using (var Client = new WebClient { Proxy = null })
-using (var XmlTextReader = new XmlTextReader(Client.OpenRead("https://raw.githubusercontent.com/ImmuneLion318/Editor-Syntax/Entry/Syntax/Light.xshd")))
+using (var XmlTextReader = new XmlTextReader(Client.OpenRead("https://raw.githubusercontent.com/Memeitizer-Limited/Editor-Syntax/Entry/Syntax/Light.xshd")))
        Editor.SyntaxHighlighting = HighlightingLoader.Load(XmlTextReader, HighlightingManager.Instance); 
 ```
